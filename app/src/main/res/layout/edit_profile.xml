@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:clickable="true"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="in.co.mealman.mealman.Screen_05">
+    <!-- Login progress -->
+    <ImageView
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbackbutton"
+        android:src="@drawable/backico"
+        android:layout_gravity="top|start"/>
+    <ImageView
+        android:layout_height="1dp"
+        app:srcCompat="@android:color/black"
+        android:layout_below="@+id/textView11"
+        android:id="@+id/imageView3"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_width="wrap_content" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginStart="32dp"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/Txt_changepassword"
+        android:layout_alignParentStart="true"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentEnd="true"
+        android:hint="Adress" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:id="@+id/editText6"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:hint="Email" />
+
+    <RelativeLayout
+        android:id="@+id/update_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView5">
+
+
+        <ImageView
+            android:layout_height="1dp"
+            app:srcCompat="@android:color/black"
+            android:layout_below="@+id/textView11"
+            android:id="@+id/imageView4"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_alignEnd="@+id/textView11"
+            android:layout_width="wrap_content" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_marginTop="5dp"
+            android:layout_width="120dp"
+            android:layout_gravity="center"
+            android:layout_height="120dp"
+            android:src="@drawable/profile_pic"
+            app:civ_border_width="0dp"
+            app:civ_border_color="#fff"
+            android:layout_marginLeft="20dp" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edttxt_name"
+            android:textSize="18sp"
+            android:layout_marginStart="22dp"
+            android:layout_alignTop="@+id/profile_image"
+            android:layout_toEndOf="@+id/profile_image"
+            android:layout_marginTop="12dp"
+            android:hint="Name" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:textSize="18sp"
+            android:layout_below="@+id/edttxt_name"
+            android:layout_alignStart="@+id/edttxt_name"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="Phone" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/small_logo"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:textSize="20sp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_corner"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp" />
+
+    <TextView
+        android:text="Change pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Txt_changepic"
+        android:linksClickable="true"
+        android:longClickable="false"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:layout_below="@+id/update_login_form"
+        android:layout_alignStart="@+id/Txt_changepassword"
+        android:layout_marginStart="9dp" />
+
+    <TextView
+        android:text="Change password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Txt_changepassword"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="11dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/Txt_changepic"
+        android:layout_alignStart="@+id/editText5" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:visibility="gone"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+
+

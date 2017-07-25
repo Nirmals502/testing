@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/Rlv_popup"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/drawable_border_mobile_dialogue">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/Rlv_header"
+            android:background="@android:color/white">
+
+            <TextView
+                android:text="Subscribe for"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView2"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginTop="5dp"
+                android:textSize="17sp" />
+
+            <TextView
+                android:text="LUNCH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:id="@+id/txtvw_tittle"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_confirm"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONFIRM"
+            android:textSize="19sp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:textColor="#fff"
+            android:background="@drawable/rounded_corner"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/dayslayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <RelativeLayout
+            android:id="@+id/nbrkfastlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/Rlv_header"
+            android:layout_alignStart="@+id/btn_confirm"
+            android:layout_marginTop="0dp"
+            android:layout_alignEnd="@+id/textView5">
+            <TextView
+                android:text="Rs 500.00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textColor="@android:color/black"
+                android:textSize="40sp"
+                android:layout_marginLeft="50dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+      <RelativeLayout
+          android:id="@+id/date_layout"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:layout_marginTop="120dp"
+          android:background="@android:color/darker_gray"
+          >
+          <TextView
+              android:id="@+id/startson"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Starts On:"
+              android:textSize="17sp"
+              android:textColor="@android:color/white"
+              android:layout_margin="5dp"/>
+          <ImageView
+              android:id="@+id/calender"
+              android:layout_marginRight="50dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/calender"
+            android:layout_alignParentRight="true"
+              />
+          <TextView
+              android:id="@+id/date"
+              android:textColor="@android:color/white"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="28/02/2016"
+              android:layout_alignParentEnd="true"
+              android:layout_margin="5dp"
+              android:textSize="17dp"
+              />
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:id="@+id/Qtylayout"
+          android:layout_marginTop="10dp"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_below="@id/date_layout"
+          >
+          <TextView
+              android:id="@+id/quantityperday"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Quantity per Day:"
+              android:textSize="14sp"
+              android:layout_marginLeft="1dp"
+              android:textColor="#000"
+              android:layout_alignParentStart="true"
+              android:layout_marginTop="5dp"/>
+          <ImageView
+              android:id="@+id/nbdec1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/minus_icon"
+              android:layout_marginRight="100dp"
+                android:layout_alignParentEnd="true"
+              />
+          <TextView
+              android:id="@+id/nbincdec"
+              android:textColor="@android:color/black"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="1"
+              android:layout_marginRight="70dp"
+              android:layout_alignParentEnd="true"
+              android:textSize="25dp"
+              />
+          <ImageView
+              android:id="@+id/nbinc1"
+              android:layout_marginRight="20dp"
+              android:layout_alignParentEnd="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/plus_icon"
+              />
+      </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/dayslayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/Qtylayout">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No of Days:"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="1dp"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"
+                />
+            <ImageView
+                android:id="@+id/nbdec2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/minus_icon"
+                android:layout_marginRight="100dp"
+                android:layout_alignParentEnd="true"
+                />
+            <TextView
+                android:id="@+id/nbincdec1"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_marginRight="70dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="25dp"
+                />
+            <ImageView
+                android:id="@+id/nbinc2"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/plus_icon"
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cross_icon"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="65dp"
+        android:id="@+id/imgcross"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,340 @@
+<resources>
+    <string name="app_name">MealMan</string>
+    <string name="title_activity_screen_02">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_mobileno">mobileno</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_mobileno">Mobile No is invalid</string>
+    <string name="error_invalid_password">Password is too short</string>
+    <string name="error_mobileno_required">Enter your  MobileNo</string>
+    <string name="error_password_required">Enter your Password</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing login
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_screen_03">Register</string>
+    <string name="prompt_name">name</string>
+    <string name="prompt2_mobileno">mobileno</string>
+    <string name="prompt2_password">Password</string>
+    <string name="action_sign_in2">Join</string>
+    <string name="error_name_required">Enter your Name</string>
+    <string name="error_invalid_mobileno2">Mobile No is invalid</string>
+    <string name="error_invalid_password2">Password is too short</string>
+    <string name="error_incorrect_password2">Password is incorrect</string>
+    <string name="error_mobileno_required2">Enter your  MobileNo</string>
+    <string name="error_password_required2">Enter your Password</string>
+    <string name="error_otp_required2">Enter your  OTP</string>
+    <string name="error_otp_incorrect">Error incorrect OTP</string>
+    <string name="permission_rationale2">"Contacts permissions are needed for providing registration
+    completions."
+    </string>
+
+    <string name="title_activity_screen_05">Update</string>
+    <string name="prompt_name5">Address</string>
+    <string name="prompt2_mobileno5">AlternateMobileno</string>
+    <string name="prompt2_password5">Email</string>
+    <string name="action_Update_in">Updateb</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="error_Address_required">Enter your Address</string>
+    <string name="error_Addess_minimum">Address should contain minimum 20 characters</string>
+    <string name="error_invalid_email">Invalid Email</string>
+    <string name="error_email_required">Enter your Email</string>
+    <string name="permission_rationale5">"Contacts permissions are needed for providing updates
+    completions."
+</string>
+    <string name="title_activity_navigationbar"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_notification">Notification</string>
+    <string name="title_activity_Subscription_package">Subscribe Package</string>
+    <string-array name="titles">
+        <item>BREAKFAST</item>
+        <item>LUNCH</item>
+        <item>BREAKFAST + LUNCH</item>
+        <item>DINNER</item>
+        <item>LUNCH+DINNER</item>
+        <item>ALL DAY MEAL</item>
+    </string-array>
+    <string-array name="description">
+        <item>Subscribed(Save 20%)</item>
+        <item>Subscribed(Save 20%)</item>
+        <item>Subscribed(Save 20%)</item>
+        <item>Subscribed(Save 20%)</item>
+        <item>Subscribed(Save 20%)</item>
+        <item>Subscribed(Save 20%)</item>
+    </string-array>
+    <string-array name="price">
+        <item>Rs30</item>
+        <item>Rs50</item>
+        <item>Rs80</item>
+        <item>Rs80</item>
+        <item>Rs160</item>
+        <item>Rs280</item>
+    </string-array>
+    <string name="title_activity_wtrials">Weekly Trials</string>
+    <string-array name="wtitles">
+        <item>BREAKFAST</item>
+        <item>LUNCH</item>
+        <item>DINNER</item>
+    </string-array>
+    <string-array name="days">
+        <item>For 7 days</item>
+        <item>For 4 days</item>
+        <item>For 5 days</item>
+    </string-array>
+    <string-array name="wprice">
+        <item>Rs250.00</item>
+        <item>Rs350.00</item>
+        <item>Rs270.00</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="order_id">Order Id : </string>
+    <string name="customer_id">Customer Id : </string>
+    <string name="transaction_amount">Transaction Amount : </string>
+    <string name="channel_id">Channel Id : </string>
+    <string name="industry_type_id">Industry Type Id : </string>
+    <string name="website">Website : </string>
+    <string name="theme">Theme : </string>
+    <string name="cust_email_id">Email Id : </string>
+    <string name="cust_mobile_no">Mobile Number : </string>
+    <string name="merchant_id">Merchant Id : </string>
+    <string name="checksum_generation_url">Checksum Generation URL : </string>
+    <string name="checksum_verification_url">Checksum Verification URL : </string>
+    <string name="start_transaction">Start Transaction</string>
+    <string name="sample_order_id">ORDER</string>
+    <string name="sample_customer_id">CUST23657</string>
+    <string name="sample_transaction_amount">1</string>
+    <string name="sample_channel_id">WAP</string>
+    <string name="sample_industry_type_id">Retail</string>
+    <string name="sample_website">worldpressplg</string>
+    <string name="sample_theme">merchant</string>
+    <string name="sample_cust_email_id">abc@gmail.com</string>
+    <string name="sample_cust_mobile_no">123</string>
+    <string name="sample_merchant_id_staging">WorldP64425807474247</string>
+    <string name="sample_checksum_generation_url">https://pguat.paytm.com/merchant-chksum/ChecksumGenerator</string>
+    <string name="sample_checksum_verification_url">https://pguat.paytm.com/merchant-chksum/ValidateChksum</string>
+    <string name="about_us">
+        We are a group of people who strived
+        for home cooked food after moving to
+        the metro cities. The biggest negative
+        of shifting to a big city is the almost
+        negligible intake of home cooked food.
+        Due to this, the epiphany occurred,
+        wherein the idea of Mealman dawned upon
+        us. The fundamental objective is very clear
+        – to deliver home cooked food at nominal
+        rates. Food that your dear mom served you.
+        Comfort of warm and tasty food during a
+        long tiring day will leave you content.
+        We make quality food under hygienic
+        conditions and we add the element of
+        advanced technology for you to manage your
+        meals in a better way. You may register,
+        cancel, add your meals through our applicaton.
+
+        As we captioned -WE ARE APPIFIED.
+    </string>
+    <string name="contact_us">
+        Call at – 8376859887
+    </string>
+    <string name="termsconditions">
+Personal Information
+
+        RRY Pvt. Ltd. is the licensed
+        owner of the brand Mealman and
+        the application Mr. Mealman.
+        We respect your privacy. This
+        Privacy Policy provides succinctly
+        the manner your data is collected
+        and used by OTRPL on the Site.
+        As a visitor to the Site/ Customer
+        you are advised to please read the
+        Privacy Policy carefully. By accessing
+        the services provided by the Site you
+        agree to the collection and use of your
+        data by RRYPL in the manner provided in
+        this Privacy Policy.
+    </string>
+    <string name="privacy_policy">
+        This Privacy Policy describes our policies
+        on the collection, use, and disclosure of
+        your information in connection with your use
+        of our websites, emails, and mobile applications. \n
+        \n
+        The terms "we", "us", and "Mealman" refer to the
+        owners of Mealman application. \n
+        \n
+        When you use the Site, you consent to our collection,
+        use, and disclosure of your information as described
+        in this Privacy Policy. \n
+        \n
+        We may store the information you submit to or through
+        the Site. We use the information to fulfill your requests,
+        provide Site functionality, improve Site quality, personalize
+        your experience, display relevant advertising, provide customer
+        support, message you, back up our systems, allow for disaster
+        recovery, and comply with legal obligations. Among the information
+        you submit to or through the Site, please note: \n
+        What information we will collect from you: \n
+        As part of the registration process on the Site, Mealman may collect
+        the following personally identifiable information about you: Name
+        including first and last name, email address, alternate email address,
+        mobile phone number and contact details, Postal code, Demographic
+        profile (like your age, gender, occupation, education, address etc.)
+        and information about the pages on the site you visit/access, the links
+        you click on the site, the number of times you access the page and any
+        such browsing information. \n
+        \n
+    </string>
+         <string name="introduction">
+         This disclaimer shall govern your use of our website.By using our web site, you agree to these terms and conditions. If you do not agree to the terms and conditions of this agreement, you should immediately cease all usage of this website. We reserve the right, at any time, to modify, alter, or update the terms and conditions of this agreement without prior notice. Modifications shall become effective immediately upon being posted on our site. Your continued use of the Service after amendments are posted constitutes an acknowledgement and acceptance of the Agreement and its modifications. Except as provided in this paragraph, this Agreement may not be amended.
+    </string>
+    <string name="description_of_service">
+        We provide delivery services to you of the meals that are exclusively prepared by us . You must provide all equipment necessary for your own Internet connection, including computer and modem and provide for your access to the Internet, and pay any fees related with such connection.
+    </string>
+    <string name="copyright_notice">
+        3.1	Copyright (c) 2017 Roop Bhinder.\n
+
+        3.2	Subject to the express provisions of this disclaimer: \n
+
+(a)	we, together with our licensors, own and control all the copyright and other intellectual property rights in our website and the material on our website; and \n
+
+(b)	all the copyright and other intellectual property rights in our website and the material on our website are reserved.
+    </string>
+    <string name="license_to_use_website">
+        4.1	You may:\n
+
+(a)	view pages from our website in a web browser;\n
+
+(b)	download pages from our website for caching in a web browser; and \n
+
+(c)	print pages from our website,
+
+	subject to the other provisions of this disclaimer.
+
+4.2	Except as expressly permitted by Section 4.1 or the other provisions of this disclaimer, you must not download any material from our website or save any such material to your computer. \n
+
+4.3	You may only use our website for [your own personal purposes], and you must not use our website for any other purposes. \n
+
+4.4	Unless you own or control the relevant rights in the material, you must not: \n
+
+(a)	republish material from our website (including republication on another website); \n
+
+(b)	sell, rent or sub-license material from our website; \n
+
+(d)	exploit material from our website for a commercial purpose; or \n
+
+(e)	redistribute material from our website. \n
+
+4.5	We reserve the right to restrict access to areas of our website, or indeed our whole website, at our discretion; you must not circumvent or bypass, or attempt to circumvent or bypass, any access restriction measures on our website.
+    </string>
+    <string name="acceptable_use">
+        5.1	You must not:\n
+
+(a)	use our website in any way or take any action that causes, or may cause, damage to the website or impairment of the performance, availability or accessibility of the website; \n
+
+(b)	use our website in any way that is unlawful, illegal, fraudulent or harmful, or in connection with any unlawful, illegal, fraudulent or harmful purpose or activity; \n
+
+(c)	use our website to copy, store, host, transmit, send, use, publish or distribute any material which consists of (or is linked to) any spyware, computer virus, or other malicious computer software. \n
+
+(d)	access or otherwise interact with our website using any robot, spider or other automated means, [except for the purpose of [search engine indexing]]; \n
+
+(f)	[violate the directives set out in the robots.txt file for our website]; or \n
+
+(g)	[use data collected from our website for any direct marketing activity (including without limitation email marketing, SMS marketing, telemarketing and direct mailing)]. \n
+
+5.2	You must not use data collected from our website to contact individuals, companies or other persons or entities. \n
+
+5.3	You must ensure that all the information you supply to us through our website, or in relation to our website, is [true, accurate, current, complete and non-misleading]. \n
+    </string>
+    <string name="third_partsites">
+        Our website may include links to other sites on the Internet that are owned and operated by online merchants and other third parties. You acknowledge that we are not responsible for the availability of, or the content located on or through, any third-party site. You should contact the site administrator or webmaster for those third-party sites if you have any concerns regarding such links or the content located on such sites. Your use of those third-party sites is subject to the terms of use and privacy policies of each site, and we are not responsible therein. We encourage you to review said privacy policies of third-party sites.
+    </string>
+    <string name="limited_warranties">
+        7.1	We do not warrant or represent: \n
+
+(a)	the completeness or accuracy of the information published on our website; \n
+
+(b)	that the material on the website is up to date; or \n
+
+(c)	that the website or any service on the website will remain available. \n
+
+7.2	We reserve the right to discontinue or alter any or all of our website services, and to stop publishing our website, at any time in our sole discretion without notice or explanation; and save to the extent expressly provided otherwise in this disclaimer, you will not be entitled to any compensation or other payment upon the discontinuance or alteration of any website services, or if we stop publishing the website. \n
+
+7.3	To the maximum extent permitted by applicable law and subject to Section 7.1, we exclude all representations and warranties relating to the subject matter of this disclaimer, our website and the use of our website. \n
+    </string>
+    <string name="lmtandexcofliability">
+        8.1	Nothing in this disclaimer will: \n
+
+(a)	limit or exclude any liability for death or personal injury resulting from negligence; \n
+
+(b)	limit or exclude any liability for fraud or fraudulent misrepresentation; \n
+
+(c)	limit any liabilities in any way that is not permitted under applicable law; or \n
+
+(d)	exclude any liabilities that may not be excluded under applicable law. \n
+
+8.2	The limitations and exclusions of liability set out in this Section 7 and elsewhere in this disclaimer: \n
+
+(a)	are subject to Section 7.1; and \n
+
+(b)	govern all liabilities arising under this disclaimer or relating to the subject matter of this disclaimer, including liabilities arising in contract, in tort (including negligence) and for breach of statutory duty, except to the extent expressly provided otherwise in this disclaimer. \n
+
+8.3	To the extent that our website and the information and services on our website are provided free of charge, we will not be liable for any loss or damage of any nature. \n
+
+8.4	We will not be liable to you in respect of any losses arising out of any event or events beyond our reasonable control. \n
+
+8.5	We will not be liable to you in respect of any business losses, including (without limitation) loss of or damage to profits, income, revenue, use, production, anticipated savings, business, contracts, commercial opportunities or goodwill. \n
+
+8.6	We will not be liable to you in respect of any loss or corruption of any data, database or software. \n
+
+8.7	We will not be liable to you in respect of any special, indirect or consequential loss or damage. \n
+
+8.8	You accept that we have an interest in limiting the personal liability of our officers and employees and, having regard to that interest, you acknowledge that we are a limited liability entity; you agree that you will not bring any claim personally against our officers or employees in respect of any losses you suffer in connection with the website or this disclaimer (this will not, of course, limit or exclude the liability of the limited liability entity itself for the acts and omissions of our officers and employees). \n
+    </string>
+    <string name="variations">
+9.1	We may revise this disclaimer from time to time. \n
+
+9.2	The revised disclaimer shall apply to the use of our website from the time of publication of the revised disclaimer on the website.
+    </string>
+    <string name="severibility">
+10.1	If a provision of this disclaimer is determined by any court or other competent authority to be unlawful and/or unenforceable, the other provisions will continue in effect. \n
+
+10.2	If any unlawful and/or unenforceable provision of this disclaimer would be lawful or enforceable if part of it were deleted, that part will be deemed to be deleted, and the rest of the provision will continue in effect.
+    </string>
+    <string name="lmt_of_liability">
+        NEITHER MEALMAN NOR I SHALL BE LIABLE FOR ANY DAMAGES WHATSOEVER, AND IN PARTICULAR SHALL NOT BE LIABLE FOR ANY SPECIAL, INDIRECT, CONSEQUENTIAL, OR INCIDENTAL DAMAGES, OR DAMAGES FOR LOST PROFITS, LOSS OF REVENUE, OR LOSS OF USE, ARISING OUT OF OR RELATED TO THIS WEB SITE OR THE INFORMATION CONTAINED IN IT, WHETHER SUCH DAMAGES ARISE IN CONTRACT, NEGLIGENCE, TORT, UNDER STATUTE, IN EQUITY, AT LAW, OR OTHERWISE, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW FOR THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, THEREFORE SOME OF THE ABOVE LIMITATIONS MAY BE INAPPLICABLE.
+    </string>
+    <string name="law_and_juris">
+        12.1	This disclaimer shall be governed by and construed in accordance with Indian law. \n
+12.2	Any disputes relating to this disclaimer shall be subject to the exclusive jurisdiction of the courts of New Delhi.
+    </string>
+    <string name="security_policy">
+        Your payment and personal information is always safe. Our ______ software is the industry standard and among the best software available today for secure commerce transactions. It encrypts all of your personal information, including credit card number, name, and address, so that it cannot be read over the Internet.
+    </string>
+    <string name="our_details">
+        14.1	This website is owned and operated by Roop Bhinder. \n
+
+14.2	You can contact us: \n
+
+(a)	[using our website contact form]; \n
+
+(c)	[by telephone, on [the contact number published on our website from time to time]]; or \n
+
+(d)	[by email, using [the email address published on our website from time to time].
+
+
+
+
+    </string>
+
+</resources>

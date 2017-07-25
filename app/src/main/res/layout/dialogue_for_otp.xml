@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="290dp"
+    android:background="@drawable/drawable_border_mobile_dialogue"
+    android:layout_centerInParent="true"
+    >
+
+    <TextView
+
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter 4 digit OTP sent to your mobile"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/confirmbutton"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="CONFIRM"
+        android:textSize="20sp"
+        android:layout_marginLeft="98dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:textColor="#fff"
+
+        android:background="@drawable/rounded_corner"
+        android:textStyle="bold"
+        android:layout_below="@+id/otpedittext"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/resendotptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESEND OTP"
+        android:layout_marginLeft="118dp"
+        android:textColor="#f00"
+        android:layout_gravity="center"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/confirmbutton"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/validotptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTP VALID FOR: 04:00"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/resendotptext"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/otpedittext"
+        android:layout_width="match_parent"
+        android:maxLength="4"
+        android:inputType="numberPassword"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/heading"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@android:drawable/editbox_background" />
+
+
+</RelativeLayout>

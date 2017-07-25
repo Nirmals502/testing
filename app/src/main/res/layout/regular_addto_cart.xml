@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/Rlv_popup"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/drawable_border_mobile_dialogue">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/Rlv_header"
+            android:background="@android:color/black">
+
+            <TextView
+                android:text="Subscribe for"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView2"
+                android:textColor="@android:color/background_light"
+                android:layout_marginTop="5dp"
+                android:textSize="17sp" />
+
+            <TextView
+                android:text="LUNCH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:id="@+id/txtvw_tittle"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:text="Are you sure to subscribe for"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgcross"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            android:id="@+id/textView5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:text="Selective subscription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/textView5"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:text="of the meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/textView6"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD TO CART"
+            android:textSize="19sp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:textColor="#fff"
+
+            android:background="@drawable/rounded_corner"
+            android:textStyle="bold"
+            android:layout_marginTop="33dp"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <RelativeLayout
+            android:id="@+id/nbrkfastlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/Rlv_header"
+            android:layout_alignStart="@+id/btn_confirm"
+            android:layout_marginTop="10dp"
+            android:layout_alignEnd="@+id/textView5">
+            <TextView
+                android:text="Rs 110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textColor="@android:color/black"
+                android:textSize="35sp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="italic"
+                android:layout_alignParentTop="true"
+                />
+            <ImageView
+                android:id="@+id/nbdec1"
+                android:layout_marginStart="53dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/minus_icon"
+                android:layout_marginTop="54dp"
+                />
+            <TextView
+                android:layout_marginTop="4dp"
+                android:id="@+id/nbincdec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_below="@id/textView4"
+                android:layout_marginLeft="8dp"
+                android:textSize="30sp"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/darker_gray"
+                android:layout_toEndOf="@+id/nbdec1" />
+            <ImageView
+                android:id="@+id/nbinc1"
+                android:layout_marginStart="122dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/plus_icon"
+                android:layout_marginTop="54dp"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cross_icon"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="65dp"
+        android:id="@+id/imgcross"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

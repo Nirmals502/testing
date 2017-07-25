@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon"/>
+    </group>
+    <group android:checkableBehavior="single">
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile_icon"
+            android:title="Profile" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/order_history"
+            android:title="History" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/contact"
+            android:title="Contact Us" />
+    </group>
+    <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_tc"
+                android:icon="@drawable/conditions"
+                android:title="Terms &amp; Conditions" />
+        </group>
+    <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_ppolicy"
+                android:icon="@drawable/medal"
+                android:title="Privacy Policy" />
+       </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navi_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Logout" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navi_exit"
+            android:icon="@drawable/exit_icon"
+            android:title="Exit" />
+    </group>
+
+
+
+</menu>

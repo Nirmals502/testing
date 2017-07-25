@@ -1,0 +1,111 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/flug"
+    android:clickable="true"
+android:background="@drawable/main_bg"
+tools:context="in.co.mealman.mealman.Screen_02">
+<!-- Login progress -->
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+<ScrollView
+    android:id="@+id/login_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:src="@drawable/splash_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:id="@+id/imageView2" />
+
+        <AutoCompleteTextView
+            android:id="@+id/mobileno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="MOBILE"
+            android:drawablePadding="18dp"
+            android:inputType="number"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/username_icon"
+
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:layout_marginTop="21dp"
+            android:imeActionId="@+id/login"
+            android:imeActionLabel="Login"
+            android:drawablePadding="18dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:drawableLeft="@drawable/password_icon"
+            />
+
+        <Button
+            android:id="@+id/login_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="LOGIN"
+            android:textSize="20sp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:textColor="#fff"
+            android:background="@drawable/rounded_corner"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORGOT PASSWORD?"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            />
+
+        <TextView
+            android:id="@+id/newusertext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARE YOU A NEW USER?"
+            android:layout_gravity="center"
+            android:background="@drawable/button_style"
+            android:textColor="#f00"
+            android:textSize="18sp"
+            android:layout_marginTop="38dp"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>/
+</ScrollView>
+
+</LinearLayout>

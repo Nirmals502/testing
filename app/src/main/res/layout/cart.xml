@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/main_bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Subscription_package"
+    >
+    <ImageView
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbackbutton"
+        android:src="@drawable/backico"
+        android:layout_gravity="top|start"/>
+    <TextView
+        android:id="@+id/subpackage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUR CART"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="#000"
+        android:textSize="25sp"/>
+
+
+    <ListView
+        android:id="@+id/mylist"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/subpackage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/checkout"
+        android:text="CHECK OUT"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:layout_below="@+id/mylist"
+        android:layout_toEndOf="@+id/rbackbutton"
+         />
+
+</RelativeLayout>
